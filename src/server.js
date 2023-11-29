@@ -19,5 +19,5 @@ app.use((req, res) => {
   res.status(404).json({ error: "Endpoint not found" });
 });
 app.listen(port, () => {
-  console.log(`Todo app listening on port ${port}`);
+  console.log(`Server listening on port ${port}`);
 });
