@@ -1,4 +1,4 @@
-Welcome to TodoAppBackend! This project is a simple runtime todo application backend that does not require a database. It utilizes Express session for managing user sessions.
+ This project is a simple runtime todo application backend that does not require a database. It utilizes Express session for managing user sessions.
 
 Getting Started
 
@@ -10,7 +10,7 @@ cd TodoApp
 
 Create a .env file in the root of the project and add the variables:
 
-PORT=5000
+PORT=3000
 
 For the PORT variable, please enter your preferred port number. 
 
@@ -28,18 +28,6 @@ This project does not use a database and is designed to be a runtime todo applic
 
 User Authentication and Todo API Documentation
 
-Table of Contents
-
-User Authentication
-Register User
-Login User
-
-Todo Operations
-Get Todos
-Create Todo
-Update Todo
-Delete Todo
-User Authentication
 
 Register User
 
@@ -161,7 +149,7 @@ description (string): The description of the todo.
 status (string): The status of the todo (e.g., "Incomplete").
 Response:
 
-201 Created: Todo creation successful.
+201 Created: Todo created successfully successful.
 message (string): "Todo created successfully."
 todo (object): Details of the newly created todo.
 Example:
